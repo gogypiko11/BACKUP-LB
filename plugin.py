@@ -1,7 +1,7 @@
 from Plugins.Plugin import PluginDescriptor
 from Screens.Console import Console
 
-cmd = "/usr/lib/enigma2/python/Plugins/Extensions/BackupLB/backup.sh /hdd"
+cmd = "/usr/lib/enigma2/python/Plugins/Extensions/BACKUP-LB/backup.sh /hdd"
 
 def main(session, **kwargs):
     	session.open(Console,_("BACKUP-LB"),[cmd])
